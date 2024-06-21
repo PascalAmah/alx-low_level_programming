@@ -8,18 +8,16 @@
  */
 int main(void)
 {
-char letter;
+char ch;
 
-for (letter = 'a'; letter <= 'z'; ++letter)
-{        
-putchar(letter);
-}
-
-for (letter = 'A'; letter <= 'Z'; ++letter)
+for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-putchar(letter);
+putchar(ch);
+}
+for (ch = 'A' ; ch <= 'Z' ; ch++)
+{
+putchar(ch);
 }
 putchar('\n');
-
-return 0;
+return (0);
 }
