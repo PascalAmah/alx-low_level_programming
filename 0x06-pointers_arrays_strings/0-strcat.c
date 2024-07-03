@@ -7,7 +7,6 @@
  *
  * Return: a pointer to the resulting string
  */
-
 char *_strcat(char *dest, char *src)
 {
 	int i, j;
